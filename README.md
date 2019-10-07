@@ -47,7 +47,7 @@ Just download and open the file
 
 4. Open terminal enter below command and hit enter 
 
-1.  cd /Downloads
+1.  cd Downloads
 2. chmod +x mac_dependencies.sh 
 3. ./mac_dependencies.sh
 
