@@ -38,11 +38,20 @@ sudo apt-get install libqt4-dev libminiupnpc-dev
 Just download and open the file
 ****************************************************************************************************
 # To Run QT on MAC --- install Deps as below
-  1. Download Homebrew for MAC by going to https://brew.sh/ 
-  2. Download File mac_dependencies.sh 
-  3. Open Terminal and cd to/path/mac_dependencies.sh
-  4. chmod +x mac_dependencies.sh (run this command in terminal)
-  5. sudo bash mac_dependencies.sh (final Command)
-  6. Run QT wallet file .dmg
-  
+
+1. open terminal
+2. Paste the below command on terminal and hit enter
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+3. download File mac_dependencies.sh and save it in downloads
+
+4. Open terminal enter below command and hit enter 
+
+1.  cd /Downloads
+2. chmod +x mac_dependencies.sh 
+3. ./mac_dependencies.sh
+
+It will take some time to install all dependencies, let it install properly 
+
+4. Now run QT wallet file .dmg with right click / open
 
